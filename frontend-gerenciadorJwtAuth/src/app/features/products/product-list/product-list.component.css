@@ -1,0 +1,36 @@
+.container {
+    padding: 20px;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    position: relative;
+    min-height: 200px;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+}
+  

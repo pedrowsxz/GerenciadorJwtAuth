@@ -1,0 +1,9 @@
+.spacer {
+    flex: 1 1 auto;
+}
+  
+.username {
+    margin: 0 10px;
+    font-size: 14px;
+}
+  

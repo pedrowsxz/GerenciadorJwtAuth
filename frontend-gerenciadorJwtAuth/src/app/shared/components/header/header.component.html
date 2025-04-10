@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+    <span>Angular Spring Boot App</span>
+    <span class="spacer"></span>
+    
+    <ng-container *ngIf="isLoggedIn; else loggedOut">
+      <button mat-button routerLink="/products">Products</button>
+      <button mat-button routerLink="/users">Users</button>
+      <span class="username">{{ username }}</span>
+      <button mat-icon-button (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+      </button>
+    </ng-container>
+    
+    <ng-template #loggedOut>
+      <button mat-button routerLink="/login">Login</button>
+    </ng-template>
+</mat-toolbar>
+  
