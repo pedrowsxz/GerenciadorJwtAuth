@@ -1,5 +1,7 @@
 # Application secrets
 application-secrets.properties
+*/application-secrets.properties
+**/application-secrets.properties
 
 HELP.md
 target/
